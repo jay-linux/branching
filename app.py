@@ -1,4 +1,4 @@
-import boto4
+import boto3
 import dev2
 def lambda_handler(event, context):
     clinet = boto3.client('ec2', region_name='ap-south-1')
