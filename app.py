@@ -7,6 +7,6 @@ def lambda_handler(event, context):
         InstanceType='t2.micro',
         KeyName='my-key-pair',
         MinCount=1,
-        MaxCount=1
+        MaxCount=2
     )
   
